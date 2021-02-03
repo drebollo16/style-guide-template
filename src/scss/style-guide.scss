@@ -25,6 +25,7 @@ xBackground
 body {
     /* this is the page background */
     background-color: $color-5;
+    //background-image: url("/src/Zen_background.jpg")no-repeat;
 }
 
 
@@ -56,7 +57,7 @@ header {
 
 .cd-logo {
     /* logo box style */
-    background-color: $color-1;
+    background-color: $color-3;
     width: 120px;
     @include MQ(M) {
         width: 180px;

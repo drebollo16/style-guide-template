@@ -59,7 +59,8 @@ xBackground
 -------------------------------- */
 body {
   /* this is the page background */
-  background-color: #ffffff;
+  background-color: #e4655f;
+  background-image: url("/Zen_background.e0d4bbb6.jpg");
 }
 
 /* -------------------------------- 
@@ -87,7 +88,7 @@ header {
 
 .cd-logo {
   /* logo box style */
-  background-color: #5f8ee4;
+  background-color: #e4655f;
   width: 120px;
 }
 @media only screen and (min-width: 1024px) {
