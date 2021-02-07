@@ -2,15 +2,15 @@
 @import 'partials/prefix-mixins';
 @import 'partials/layout'; // responsive grid and media queries
 @import 'partials/typography';
-@import 'partials/buttons;
+@import 'partials/buttons';
+
 /* --------------------------------
 
 Variables 
 
 -------------------------------- */
 
-@import 'partials/variables'; 
-
+@import 'partials/variables';
 
 /* -------------------------------- 
 
@@ -21,7 +21,7 @@ xBackground
 body {
     /* this is the page background */
     background-color: $color-5;
-    //background-image: url("/src/Zen_background.jpg")no-repeat;
+    background-image: url("/src/Zen_background.jpg")no-repeat;
 }
 
 
@@ -132,8 +132,6 @@ main>h1 {
         color: $color-5;
     }
 }
-
-
 
 
 /* -------------------------------- 
