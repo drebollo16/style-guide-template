@@ -3,6 +3,7 @@
 @import 'partials/layout'; // responsive grid and media queries
 @import 'partials/typography';
 @import 'partials/buttons';
+
 // color palette - these colors will be the color swatches of the Colors section
 $color-1: #5f8ee4; // Cornflower Blue - Action color
 $color-2: #19191a; // Dark Blue
@@ -18,6 +19,16 @@ serif;
 $secondary-font: 'Open Sans',
 sans-serif;
 
+
+/* --------------------------------
+
+Variables 
+
+-------------------------------- */
+
+@import 'partials/variables';
+
+
 /* -------------------------------- 
 
 xBackground 
@@ -27,7 +38,7 @@ xBackground
 body {
     /* this is the page background */
     background-color: $color-5;
-    //background-image: url("/src/Zen_background.jpg")no-repeat;
+    background-image: url("/src/Zen_background.jpg")no-repeat;
 }
 
 
@@ -138,7 +149,6 @@ main>h1 {
         color: $color-5;
     }
 }
-
 
 
 
